@@ -15,7 +15,7 @@ D:/VoteFight_Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1594
+10447
 Successfully changed project path to: D:/VoteFight_Unity
 D:/VoteFight_Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/VoteFight_Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [41392] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 2934068862 [EditorId] 2934068862 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55GMCQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [38348] Host "[IP] 192.168.207.140 [Port] 0 [Flags] 2 [Guid] 2444992072 [EditorId] 2444992072 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55GMCQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [41392] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 2934068862 [EditorId] 2934068862 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55GMCQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [38348] Host "[IP] 192.168.207.140 [Port] 0 [Flags] 2 [Guid] 2444992072 [EditorId] 2444992072 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55GMCQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 81.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -67,45 +67,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009841 seconds.
+Registered in 0.010785 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.578 seconds
+- Completed reload, in  0.657 seconds
 Domain Reload Profiling:
-	ReloadAssembly (578ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (406ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (414ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (84ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (249ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (229ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
+				RefreshPlugins (66ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004633 seconds.
+Registered in 0.003455 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\VoteFight_Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\VoteFight_Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -113,43 +113,43 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
+- Completed reload, in  0.995 seconds
 Domain Reload Profiling:
-	ReloadAssembly (861ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (995ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (656ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (291ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (304ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (114.0 KB). Loaded Objects now: 3526.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.2 KB). Loaded Objects now: 3528.
 Memory consumption went from 120.1 MB to 120.0 MB.
-Total: 5.466900 ms (FindLiveObjects: 0.317000 ms CreateObjectMapping: 0.077500 ms MarkObjects: 4.904500 ms  DeleteObjects: 0.166700 ms)
+Total: 3.287300 ms (FindLiveObjects: 0.462000 ms CreateObjectMapping: 0.142900 ms MarkObjects: 2.358800 ms  DeleteObjects: 0.322200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,829 +164,145 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3551.006775 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(ee20b9d70d0f8b64789d5b8e0c94fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(ee20b9d70d0f8b64789d5b8e0c94fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96a224903fe491befd76ebc65f8daac') in 0.080337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/농장2.fbx
-  artifactKey: Guid(b3782d883065c9f478f6ccb40a744942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/농장2.fbx using Guid(b3782d883065c9f478f6ccb40a744942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0b6626b018fe1f7a6d57af49152422') in 1.048919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.014742 seconds.
-  path: Assets/_TerrainAutoUpgrade
-  artifactKey: Guid(c4999b90c9543ce4f9ca25ba2fd7eb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade using Guid(c4999b90c9543ce4f9ca25ba2fd7eb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae231ed6de6ed72b9fe9074109b733c') in 0.002256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.063587 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GrassColorLowPolyNormal3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(976bef0d72a55e44c9a7adafc7d85c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_GrassColorLowPolyNormal3d3aba195e4d26ee.terrainlayer using Guid(976bef0d72a55e44c9a7adafc7d85c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01f17f270cc3407a5a7519df9e8a3ce') in 0.015325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.076955 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aeecdd3425d64a7c2e0f7b2ec42a636') in 0.002639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.938974 seconds.
-  path: Assets/Scenes/Overview.unity
-  artifactKey: Guid(15e44f158886bb540bf5a55431dc4b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Overview.unity using Guid(15e44f158886bb540bf5a55431dc4b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2909f737f1a66a00bb40eb460a5e6fe5') in 0.002354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.674099 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.002422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.429037 seconds.
-  path: Assets/마을/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab
-  artifactKey: Guid(00e2e59cbc04eab4a982218df54ce70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab using Guid(00e2e59cbc04eab4a982218df54ce70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f977e27b9265758a3b01b4084fadf5d') in 0.017446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.229059 seconds.
-  path: Assets/농장1
-  artifactKey: Guid(ce24914b722dfdc41bbaa4223a1ed0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/농장1 using Guid(ce24914b722dfdc41bbaa4223a1ed0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d3798bc509ef8fbb8abe98c3aa554c') in 0.002645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.603512 seconds.
-  path: Assets/농장1/textures
-  artifactKey: Guid(257fee301496a7f4597af50f1d57d486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/농장1/textures using Guid(257fee301496a7f4597af50f1d57d486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb3bfb909018c8e2d5b7db7952c934e') in 0.002261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.035345 seconds.
-  path: Assets/농장1/textures/pngwing.com.png
-  artifactKey: Guid(ee703f265e80f9846b5bccd5dc7bf21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/농장1/textures/pngwing.com.png using Guid(ee703f265e80f9846b5bccd5dc7bf21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46521a597c734220b3cb85bab75886c0') in 0.023677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.742102 seconds.
-  path: Assets/Terrain.mat
-  artifactKey: Guid(6cda39e90eb67734f8c6d9404231a2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain.mat using Guid(6cda39e90eb67734f8c6d9404231a2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd90c80771aad1b493ddfaceef4471b') in 0.017613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.470996 seconds.
-  path: Assets/height2.png
-  artifactKey: Guid(4261e4e55e61db3469e4b2632d95fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/height2.png using Guid(4261e4e55e61db3469e4b2632d95fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892465526c8eea558f3ef9dc29231abc') in 0.025075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.358877 seconds.
-  path: Assets/height2.png
-  artifactKey: Guid(4261e4e55e61db3469e4b2632d95fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/height2.png using Guid(4261e4e55e61db3469e4b2632d95fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ed476827bb5879f5724ed887f2c709') in 0.017965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.753947 seconds.
-  path: Assets/height2.png
-  artifactKey: Guid(4261e4e55e61db3469e4b2632d95fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/height2.png using Guid(4261e4e55e61db3469e4b2632d95fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b0c49a85e71317d7e56fc15edd6ff5') in 0.014846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.248344 seconds.
-  path: Assets/TerrainData_c1ce9579-5285-40d6-9b11-4d63b96f294e.asset
-  artifactKey: Guid(895ebc9d2d7da9342bb7447aaf899ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_c1ce9579-5285-40d6-9b11-4d63b96f294e.asset using Guid(895ebc9d2d7da9342bb7447aaf899ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22227a08b6b2e106cc432e4a8dc37154') in 0.004099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.334645 seconds.
-  path: Assets/건축
-  artifactKey: Guid(9926a4b4ee79b6444bc4519548eecdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축 using Guid(9926a4b4ee79b6444bc4519548eecdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bba7302bf93dcc0f9b5d64291e9ffa0') in 0.002376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.727453 seconds.
-  path: Assets/건축/GreekPack1Lite
-  artifactKey: Guid(881f34c532ed449f79452bcbc6a9cfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/GreekPack1Lite using Guid(881f34c532ed449f79452bcbc6a9cfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d5031a3e188076e1955869e102572b') in 0.002371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.034322 seconds.
-  path: Assets/건축/SciFiPack1/Models
-  artifactKey: Guid(6960c7a7eb5094ea385c4876a573b695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models using Guid(6960c7a7eb5094ea385c4876a573b695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b77d09c346ba2052c04fbf951fa974e') in 0.002199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.037605 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_bed.fbx
-  artifactKey: Guid(64925da842cee45b6a77b76846d344fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_bed.fbx using Guid(64925da842cee45b6a77b76846d344fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1fb38a499dbaa8d27572e402c98d68') in 0.015386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_pipes_vertical.fbx
-  artifactKey: Guid(04ed4c19f208b45bf8534eb572999d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_pipes_vertical.fbx using Guid(04ed4c19f208b45bf8534eb572999d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c152a89ae3a305fea2cd2530530a501') in 0.014851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_fence.fbx
-  artifactKey: Guid(fcbd8d71997a747bcb21d4db8021b93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_fence.fbx using Guid(fcbd8d71997a747bcb21d4db8021b93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed0608ac11859b3e30a8daff1bc0895') in 0.014311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_crate_1.fbx
-  artifactKey: Guid(f0291ba0e5a78446ab9a5494492da05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_crate_1.fbx using Guid(f0291ba0e5a78446ab9a5494492da05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30253c8087927d68d51fcd6df883e8e4') in 0.027811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_pad.fbx
-  artifactKey: Guid(5ec26990d43724690adc05678cf7bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_pad.fbx using Guid(5ec26990d43724690adc05678cf7bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d16bd57cb9d867366308d155c710d8') in 0.015734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_console.fbx
-  artifactKey: Guid(6aaa8741e1d4f46d8a73257685372428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_console.fbx using Guid(6aaa8741e1d4f46d8a73257685372428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407b9dfe63614c251a289c4ae76972b1') in 0.017484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_light_3.fbx
-  artifactKey: Guid(6d99ac6cdea77488b978a83502e65fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_light_3.fbx using Guid(6d99ac6cdea77488b978a83502e65fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c762676f737f8dcb64fb7f3ca8c787') in 0.015217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_valve.fbx
-  artifactKey: Guid(67bed70becf4d41f782652d291ccb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_valve.fbx using Guid(67bed70becf4d41f782652d291ccb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509d744d84117247fb8a2b8df102258a') in 0.014766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_wall_1sided_door.fbx
-  artifactKey: Guid(01bb2643f64fe46a2b3f33df88adcac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_wall_1sided_door.fbx using Guid(01bb2643f64fe46a2b3f33df88adcac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc818ac7a7950a7ddbdba40531da61fd') in 0.013837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_column.fbx
-  artifactKey: Guid(cf2d0994efa864f699f8610376ddc2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_column.fbx using Guid(cf2d0994efa864f699f8610376ddc2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe46689871168670b7056b3b9fd705') in 0.015400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_door_1.fbx
-  artifactKey: Guid(55d45c6586ba84b00bc08c8e09086128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_door_1.fbx using Guid(55d45c6586ba84b00bc08c8e09086128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca22e8283c46f1d360b9884ff19519af') in 0.025173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_panel_horizontal.fbx
-  artifactKey: Guid(85563834566554d96bc44fa80acd6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_panel_horizontal.fbx using Guid(85563834566554d96bc44fa80acd6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8b833e72bc33f2edee2db24f32f6fb') in 0.016926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/건축/SciFiPack1/Models/scifi_table.fbx
-  artifactKey: Guid(952cfe91524df4588bb15a45cfd41e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Models/scifi_table.fbx using Guid(952cfe91524df4588bb15a45cfd41e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7b92338241be00d830c7da08bb2891') in 0.017497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.174634 seconds.
-  path: Assets/건축/SciFiPack1/Prefabs/scifi_bed.prefab
-  artifactKey: Guid(f90283dd9ceb04cfa8cf35cc6712f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Prefabs/scifi_bed.prefab using Guid(f90283dd9ceb04cfa8cf35cc6712f07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211585e2425c9fe499d47504a0891dcd') in 0.009295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/건축/SciFiPack1/Prefabs/scifi_table.prefab
-  artifactKey: Guid(16dac573294ae45139b584985a30a406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Prefabs/scifi_table.prefab using Guid(16dac573294ae45139b584985a30a406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5cf37e45c6c24887fa5079c3ae5874') in 0.009613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/건축/SciFiPack1/Prefabs/scifi_wall_bowed_turn_short.prefab
-  artifactKey: Guid(ab0b6de499d3c4366a2f5fbd9695b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Prefabs/scifi_wall_bowed_turn_short.prefab using Guid(ab0b6de499d3c4366a2f5fbd9695b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c74ef58fcc66080ceaafbc5cb80f3b') in 0.010014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/건축/SciFiPack1/Prefabs/scifi_floor_2.prefab
-  artifactKey: Guid(82b53386f30c7457a954e202207c2a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Prefabs/scifi_floor_2.prefab using Guid(82b53386f30c7457a954e202207c2a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5df6c43b9dfaa73a3812429d0ebf83c') in 0.008625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/건축/SciFiPack1/Prefabs/scifi_door_1.prefab
-  artifactKey: Guid(a4287460fe00b44dbb6b2ef7124af01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Prefabs/scifi_door_1.prefab using Guid(a4287460fe00b44dbb6b2ef7124af01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beac6a0a09a09a3012467ef25dfcebe5') in 0.009581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/건축/SciFiPack1/Prefabs/scifi_wall_bowed_window_round.prefab
-  artifactKey: Guid(97384239fadec4e2cb9f1cf8023339ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/건축/SciFiPack1/Prefabs/scifi_wall_bowed_window_round.prefab using Guid(97384239fadec4e2cb9f1cf8023339ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e0880ce498611e12a3ee9a2ddeb14d') in 0.194916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.243110 seconds.
-  path: Assets/농장1/source/warehouse sketchfab.fbx
-  artifactKey: Guid(6064397b14524064fa446c75eb76f9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/농장1/source/warehouse sketchfab.fbx using Guid(6064397b14524064fa446c75eb76f9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58af42d95ee8f5d30570240b2ae279e') in 0.611550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.939830 seconds.
-  path: Assets/NewBehaviourScript.cs
-  artifactKey: Guid(3099b198e97acc74997764b5f67a576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewBehaviourScript.cs using Guid(3099b198e97acc74997764b5f67a576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a624e5aade40123b57a582bd521da2c3') in 0.019594 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004621 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\VoteFight_Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\VoteFight_Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.869 seconds
-Domain Reload Profiling:
-	ReloadAssembly (869ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (631ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (252ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (155ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (80.6 KB). Loaded Objects now: 3579.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 2.995700 ms (FindLiveObjects: 0.449500 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.331300 ms  DeleteObjects: 0.099800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 27.852128 seconds.
-  path: Assets/BuildingSaveLoad.cs
-  artifactKey: Guid(3099b198e97acc74997764b5f67a576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BuildingSaveLoad.cs using Guid(3099b198e97acc74997764b5f67a576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04771ad6ea8b10580897f079fe68eba2') in 0.007491 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003060 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\VoteFight_Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\VoteFight_Unity\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
-Domain Reload Profiling:
-	ReloadAssembly (792ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (568ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (216ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (80.6 KB). Loaded Objects now: 3582.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 2.576600 ms (FindLiveObjects: 0.230800 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.163600 ms  DeleteObjects: 0.100100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 16.374709 seconds.
-  path: Assets/BuildingSaveLoad.cs
-  artifactKey: Guid(3099b198e97acc74997764b5f67a576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BuildingSaveLoad.cs using Guid(3099b198e97acc74997764b5f67a576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0025c20c9604b958b833b624742d3ba8') in 0.006900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.358327 seconds.
-  path: Assets/농장1/source
-  artifactKey: Guid(aff7538cd02e173478ce192d678a51e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/농장1/source using Guid(aff7538cd02e173478ce192d678a51e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60673035b42d69c0cf4ca73e7867d4c3') in 0.002888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 120.247264 seconds.
-  path: Assets/마을/Prefabs
-  artifactKey: Guid(5418b837466e9e540a4c9142c8646667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs using Guid(5418b837466e9e540a4c9142c8646667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdf0572dbf0dad2596ad70cd2dca0d4') in 0.002395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.953860 seconds.
-  path: Assets/마을/Prefabs/Nature
-  artifactKey: Guid(caa53d26110620c4796425b9e20eb673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature using Guid(caa53d26110620c4796425b9e20eb673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6cadc3271f2186f2e1db3cc9d08d4b') in 0.001841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.701453 seconds.
-  path: Assets/마을/Prefabs/Nature/Rocks
-  artifactKey: Guid(bcdbaf7c59877724ea3cdf590b46ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Rocks using Guid(bcdbaf7c59877724ea3cdf590b46ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd0eaea73071b7c402c6bbe8f3368a6') in 0.003417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.052510 seconds.
-  path: Assets/마을/Prefabs/Nature/Rocks/rpgpp_lt_rock_01.prefab
-  artifactKey: Guid(6fc2010b5899cfd488a0ddf205679e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Rocks/rpgpp_lt_rock_01.prefab using Guid(6fc2010b5899cfd488a0ddf205679e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11cd3e407f5cf78e788f29e3330b8b7') in 0.057142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/마을/Prefabs/Nature/Rocks/rpgpp_lt_rocks_tiny_01.prefab
-  artifactKey: Guid(e1154cf6ac27b2f45b4ae35582e7e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Rocks/rpgpp_lt_rocks_tiny_01.prefab using Guid(e1154cf6ac27b2f45b4ae35582e7e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3c991919214e89301d60bb9f1e4cd1') in 0.009679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/마을/Prefabs/Nature/Rocks/rpgpp_lt_rock_03.prefab
-  artifactKey: Guid(0fd5be61d8c00de419d45d6bf745a69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Rocks/rpgpp_lt_rock_03.prefab using Guid(0fd5be61d8c00de419d45d6bf745a69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c31c820bef0ba8672c13e84b53326e8') in 0.014817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.901895 seconds.
-  path: Assets/마을/Prefabs/Nature/Sky/rpgpp_lt_cloud_01.prefab
-  artifactKey: Guid(6fdeb1faa1b42904e9210dd047b256ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Sky/rpgpp_lt_cloud_01.prefab using Guid(6fdeb1faa1b42904e9210dd047b256ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c44e62befbce37ffd8e832a221e4cf0') in 0.011699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/마을/Prefabs/Nature/Sky/rpgpp_lt_sky_01.prefab
-  artifactKey: Guid(f31c6bb6e68212e41b0bcae74612a240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Sky/rpgpp_lt_sky_01.prefab using Guid(f31c6bb6e68212e41b0bcae74612a240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c801bfd7db919c63724e8e55b19072') in 0.011965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.540484 seconds.
-  path: Assets/마을/Prefabs/Nature/Terrain/rpgpp_lt_hill_small_01.prefab
-  artifactKey: Guid(5c9211eb71cff4f4996a21d92317f601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Terrain/rpgpp_lt_hill_small_01.prefab using Guid(5c9211eb71cff4f4996a21d92317f601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afb235118cca4ad03b40bc459e7b56c') in 0.011721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/마을/Prefabs/Nature/Terrain/rpgpp_lt_terrain_sand_01.prefab
-  artifactKey: Guid(e7489574cca6d4645a7019414b8288e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Terrain/rpgpp_lt_terrain_sand_01.prefab using Guid(e7489574cca6d4645a7019414b8288e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ae90678e29983042ab575a4685d8fd') in 0.010116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/마을/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_01.prefab
-  artifactKey: Guid(bdf8e7438a7816543998181bd3067573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_01.prefab using Guid(bdf8e7438a7816543998181bd3067573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344ffcd8400d021d58ba428065e053c7') in 0.010070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/마을/Prefabs/Nature/Terrain/rpgpp_lt_mountain_01.prefab
-  artifactKey: Guid(9d200fbd47e9c7f45ad54450ebd25b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Prefabs/Nature/Terrain/rpgpp_lt_mountain_01.prefab using Guid(9d200fbd47e9c7f45ad54450ebd25b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a771daf77f4194e4884f6cc07355c2') in 0.020570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5121.860797 seconds.
-  path: Assets/Terrain.mat
-  artifactKey: Guid(6cda39e90eb67734f8c6d9404231a2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain.mat using Guid(6cda39e90eb67734f8c6d9404231a2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87cf3720062aea5e449c8b5f3839edb') in 0.141851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.328654 seconds.
-  path: Assets/터레인텍스쳐.png
-  artifactKey: Guid(aafbeefecfb00564cad5be482fe630b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/터레인텍스쳐.png using Guid(aafbeefecfb00564cad5be482fe630b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2729f7555a83ff07f9e0f4be8d1becca') in 0.022281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 106.513446 seconds.
-  path: Assets/터레인텍스쳐2.png
-  artifactKey: Guid(3ec2e1828b523404498c2cf19a02d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/터레인텍스쳐2.png using Guid(3ec2e1828b523404498c2cf19a02d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa8a8f8ecaca3f501b38db371ce20c6') in 0.009130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 124.174174 seconds.
-  path: Assets/터레인텍스쳐2.png
-  artifactKey: Guid(3ec2e1828b523404498c2cf19a02d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/터레인텍스쳐2.png using Guid(3ec2e1828b523404498c2cf19a02d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a4cb4d431eb34b9d156136dfe5d30d') in 0.009328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.342838 seconds.
-  path: Assets/터레인텍스쳐2.png
-  artifactKey: Guid(3ec2e1828b523404498c2cf19a02d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/터레인텍스쳐2.png using Guid(3ec2e1828b523404498c2cf19a02d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7115933f578b297fcbb324d67f0b2e1') in 0.008471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.142792 seconds.
-  path: Assets/성/source
-  artifactKey: Guid(e0a6ebb90b5c6b04984f954bf5b4f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/성/source using Guid(e0a6ebb90b5c6b04984f954bf5b4f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32417518e271bf92bde8dc6dfb8e7fd') in 0.002425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.789409 seconds.
-  path: Assets/성/source/FINAL_SCENE_03.fbx
-  artifactKey: Guid(584cf9051439c274c97cecae42cf3487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/성/source/FINAL_SCENE_03.fbx using Guid(584cf9051439c274c97cecae42cf3487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ce112890c1644fd870ef07f15383d4') in 1.096559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.091058 seconds.
-  path: Assets/마을/Materials/rpgpp_lt_cloud_a.mat
-  artifactKey: Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Materials/rpgpp_lt_cloud_a.mat using Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2945ea7bafee626b106e58316fe9eb0b') in 0.015913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/마을/Materials/rpgpp_lt_sky_a.mat
-  artifactKey: Guid(ff33af19770dd3e489f9c65e388009fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Materials/rpgpp_lt_sky_a.mat using Guid(ff33af19770dd3e489f9c65e388009fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daab994fa9fa625f722d95332311579') in 0.011619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.693860 seconds.
-  path: Assets/마을/Models/Nature
-  artifactKey: Guid(0411daae2008b22408fa9a2285a99184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature using Guid(0411daae2008b22408fa9a2285a99184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6021b6f78d0206b128fbddc29218dc81') in 0.002221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059980 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_bush_01.fbx
-  artifactKey: Guid(d28a5d39d87b52c49824501fac8b689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_bush_01.fbx using Guid(d28a5d39d87b52c49824501fac8b689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725fb43b7c01751a4180840bccba0025') in 0.021809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_flower_01.fbx
-  artifactKey: Guid(7d350a824190e0647822f95e9f7bbc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_flower_01.fbx using Guid(7d350a824190e0647822f95e9f7bbc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f15e7892315fb583ab3e9fd04b56e8') in 0.016047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_rock_02.fbx
-  artifactKey: Guid(d1fd41beb70267947bc1c996df07593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_rock_02.fbx using Guid(d1fd41beb70267947bc1c996df07593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2b6e94c982cff2aaefda5f6be38f2a') in 0.016579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_tree_02.fbx
-  artifactKey: Guid(7dca68918011bd644a4dc268eea79b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_tree_02.fbx using Guid(7dca68918011bd644a4dc268eea79b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42395baa2bf60cb3f0831ce8c15dedc0') in 0.014849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_grass_small_01b.fbx
-  artifactKey: Guid(60f048e3ccfd7d0498e095661396963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_grass_small_01b.fbx using Guid(60f048e3ccfd7d0498e095661396963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb4f7e02a1ab57ea568023a535e1a95') in 0.013918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_plant_02.fbx
-  artifactKey: Guid(2ef20853860a4694c9c08c312d121b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_plant_02.fbx using Guid(2ef20853860a4694c9c08c312d121b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4074ce310a9fda3025c0b47ab3feff') in 0.015564 seconds 
+  Time since last request: 97027.869549 seconds.
+  path: Assets/건축/GreekPack1Lite/Models
+  artifactKey: Guid(6084b4ae4ea1c44c4ac376d673d8f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models using Guid(6084b4ae4ea1c44c4ac376d673d8f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa6f44b79121b8ecc2a9ebbaaf2604e') in 0.007361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044900 seconds.
+  path: Assets/건축/GreekPack1Lite/Models/greek_column_1.fbx
+  artifactKey: Guid(2a454462cc1bc47eab5642f1bcf4ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models/greek_column_1.fbx using Guid(2a454462cc1bc47eab5642f1bcf4ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63e444d9c3e9cfb9a62dbbc7e3ce497') in 0.273470 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_rock_01.fbx
-  artifactKey: Guid(305f277e1529222439b495a441de2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_rock_01.fbx using Guid(305f277e1529222439b495a441de2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f33c89cdac35508331d804cce84f9b') in 0.013650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_rock_03.fbx
-  artifactKey: Guid(455995b8866658b42b3da7b1cab18535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_rock_03.fbx using Guid(455995b8866658b42b3da7b1cab18535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8ec7c54af3abba62f1fbdcedc6e80a') in 0.012980 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_hill_small_01.fbx
-  artifactKey: Guid(3602432658d7f1540978cbbd6875ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_hill_small_01.fbx using Guid(3602432658d7f1540978cbbd6875ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2169942d3ab1600a86f0e0c22ebde79') in 0.014802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_terrain_grass_02.fbx
-  artifactKey: Guid(a90ec1b8be596134b912428bfce1f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_terrain_grass_02.fbx using Guid(a90ec1b8be596134b912428bfce1f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2717626f669daf3aa1bd4d4069003901') in 0.013557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_rocks_tiny_01.fbx
-  artifactKey: Guid(2e716c43576f71b4aa87e6cb4ebeaeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_rocks_tiny_01.fbx using Guid(2e716c43576f71b4aa87e6cb4ebeaeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1799ec0cbe8836497f9c74d7e9c077') in 0.013172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_hill_small_02.fbx
-  artifactKey: Guid(87dc0b67e5fe70f40a31e17b0c0058b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_hill_small_02.fbx using Guid(87dc0b67e5fe70f40a31e17b0c0058b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a4c5bc1ca516f7f281a9bc01dd396c') in 0.014141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_tree_pine_01.fbx
-  artifactKey: Guid(58c79ebc04f48c74fa4869c3f7d941fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_tree_pine_01.fbx using Guid(58c79ebc04f48c74fa4869c3f7d941fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d209f8c4cb321ffa5c76e475a69c58f') in 0.013567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_tree_01.fbx
-  artifactKey: Guid(15977c94193725642b83e5c7be73b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_tree_01.fbx using Guid(15977c94193725642b83e5c7be73b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacbf174f8e7fccc17abb772530bad89') in 0.012463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/마을/Models/Nature/rpgpp_lt_rock_small_01.fbx
-  artifactKey: Guid(274fdec0feeaa784f96a62f99c4be287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Nature/rpgpp_lt_rock_small_01.fbx using Guid(274fdec0feeaa784f96a62f99c4be287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d01a8e2574703db90c72b7e13cc8b7') in 0.014793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.782563 seconds.
-  path: Assets/마을/Models/Structures/rpgpp_lt_building_01.fbx
-  artifactKey: Guid(af5390e2a0373984db3740f21c0ec034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Structures/rpgpp_lt_building_01.fbx using Guid(af5390e2a0373984db3740f21c0ec034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891c89922546b9e6abf510934318482e') in 0.017802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/마을/Models/Structures/rpgpp_lt_building_04.fbx
-  artifactKey: Guid(cc4034e4bb7d9cd418975561c7bcd316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Structures/rpgpp_lt_building_04.fbx using Guid(cc4034e4bb7d9cd418975561c7bcd316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef8312e7617edafb83fcb094af4cb45') in 0.023566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.123553 seconds.
-  path: Assets/터레인텍스쳐2.png
-  artifactKey: Guid(3ec2e1828b523404498c2cf19a02d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/터레인텍스쳐2.png using Guid(3ec2e1828b523404498c2cf19a02d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d568d86cc3f048fb80661ff77857d1a') in 0.009579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.015857 seconds.
-  path: Assets/자연/_TerrainAutoUpgrade
-  artifactKey: Guid(beaab6bc13e000e42bbb665976f2c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/_TerrainAutoUpgrade using Guid(beaab6bc13e000e42bbb665976f2c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f21d7ab91a19b27ec0836ae321a489') in 0.004067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047136 seconds.
-  path: Assets/자연/_TerrainAutoUpgrade/layer_GrassColorLowPolyNormal3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(e3352fc0d277d354d9337d319a006536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/_TerrainAutoUpgrade/layer_GrassColorLowPolyNormal3d3aba195e4d26ee.terrainlayer using Guid(e3352fc0d277d354d9337d319a006536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56153b8f1c51b6c1e24aca2b4096c998') in 0.016058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.583975 seconds.
-  path: Assets/자연/Demo/Terrain.asset
-  artifactKey: Guid(b7b0c130a920d7545911531cd6112294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/Demo/Terrain.asset using Guid(b7b0c130a920d7545911531cd6112294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3851d65d24ef50100a408034a9486156') in 0.128006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.546385 seconds.
-  path: Assets/자연/Effects/NaturePostProcessSetup.asset
-  artifactKey: Guid(0ba42f0245cfea1468c5dd9c60521d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/Effects/NaturePostProcessSetup.asset using Guid(0ba42f0245cfea1468c5dd9c60521d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaec2f8f6915fa7e2b934bdb5571518') in 0.003766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.380975 seconds.
-  path: Assets/자연/FreeVegetation/Materials
-  artifactKey: Guid(9a5457ce8d0d06042b1f644327c18a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/FreeVegetation/Materials using Guid(9a5457ce8d0d06042b1f644327c18a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fea4b1cd976593420a5516b6cc0ee09') in 0.002795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.526654 seconds.
-  path: Assets/자연/FreeVegetation/Models
-  artifactKey: Guid(404b72b585f845b4884931187e240179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/FreeVegetation/Models using Guid(404b72b585f845b4884931187e240179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81f5412bda8dd990d93e68bc7531b40') in 0.002210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059593 seconds.
-  path: Assets/자연/FreeVegetation/Models/Vegetation.fbx
-  artifactKey: Guid(2072bd79c1ae41441b0d087f04e9ec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/FreeVegetation/Models/Vegetation.fbx using Guid(2072bd79c1ae41441b0d087f04e9ec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12086d5ff228de2a365b0166132bed33') in 0.142488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.276432 seconds.
-  path: Assets/자연/FreeVegetation/Prefabs/Bush_1_1.prefab
-  artifactKey: Guid(736a3a898da8f894593c271ad73d5f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/FreeVegetation/Prefabs/Bush_1_1.prefab using Guid(736a3a898da8f894593c271ad73d5f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba903656ff5b72eb0e9ef7b0e09e939') in 0.010727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/자연/FreeVegetation/Prefabs/Plant_1_1.prefab
-  artifactKey: Guid(18e11e0f358c3684abd2b1363d394d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/FreeVegetation/Prefabs/Plant_1_1.prefab using Guid(18e11e0f358c3684abd2b1363d394d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b04610c02a6650788177052648c7074') in 0.009924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/자연/FreeVegetation/Prefabs/Grass_2_1.prefab
-  artifactKey: Guid(1ddaf242dd01c744393cf9bd8a9334d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/FreeVegetation/Prefabs/Grass_2_1.prefab using Guid(1ddaf242dd01c744393cf9bd8a9334d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c10ae3de3bd5b0ee935efc7b0272ef') in 0.009596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/자연/FreeVegetation/Prefabs/Tree_1_1.prefab
-  artifactKey: Guid(465cbb465c9880c45887d824bd1f720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/FreeVegetation/Prefabs/Tree_1_1.prefab using Guid(465cbb465c9880c45887d824bd1f720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c22c37200b07f93aadea913307fe976') in 0.014517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/자연/FreeVegetation/Prefabs/Grass_1_2.prefab
-  artifactKey: Guid(729e667a67b1fbd40adbda716ae59a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/FreeVegetation/Prefabs/Grass_1_2.prefab using Guid(729e667a67b1fbd40adbda716ae59a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe167792bc1fa0e87954de8210574b22') in 0.010199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.033846 seconds.
-  path: Packages/com.unity.testtools.codecoverage
-  artifactKey: Guid(37e2fae9013949daf3016af47382dd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.testtools.codecoverage using Guid(37e2fae9013949daf3016af47382dd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a26b7002931fba3277f6d32b650d8b6') in 0.002435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058739 seconds.
-  path: Packages/com.unity.testtools.codecoverage/package.json
-  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ede392239df6bf770ed0fb43b79895') in 0.019867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.230983 seconds.
-  path: Packages/com.unity.ext.nunit/package.json
-  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc5629c4141466786b845dfe4fc31') in 0.004125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.554914 seconds.
-  path: Packages/com.unity.editorcoroutines/package.json
-  artifactKey: Guid(6428ca6f30e71ee4dbea7e1d0787cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.editorcoroutines/package.json using Guid(6428ca6f30e71ee4dbea7e1d0787cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09ec15c09bb4767b92c14d9ec7e7dbb') in 0.006558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.678718 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_banner_01a.fbx
-  artifactKey: Guid(d7113c6e2a0f65c4abdb33666078052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_banner_01a.fbx using Guid(d7113c6e2a0f65c4abdb33666078052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9031f3e06200dcca0b1ab5adc3e01f96') in 0.014003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_ladder_01.fbx
-  artifactKey: Guid(5a5a8e9d7228e204a91c0fb79c12479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_ladder_01.fbx using Guid(5a5a8e9d7228e204a91c0fb79c12479b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9f398443a40b23d081c769ba342ee8') in 0.014668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_chair_01a.fbx
-  artifactKey: Guid(c7acbad2649a15647a7a4dfd8cceb5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_chair_01a.fbx using Guid(c7acbad2649a15647a7a4dfd8cceb5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804cfdb4fca4db56703d34d72f79f21d') in 0.016897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_bird_house_01.fbx
-  artifactKey: Guid(8edf1a08abb5cb342a2a608b289c1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_bird_house_01.fbx using Guid(8edf1a08abb5cb342a2a608b289c1f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c32cf129d35ee447746878e89fe6319') in 0.016120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_hanger_wood_01.fbx
-  artifactKey: Guid(dc53ddfef4a2d414f83c0332e80bfbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_hanger_wood_01.fbx using Guid(dc53ddfef4a2d414f83c0332e80bfbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103dc7fb2c8aad9add7934115d06ce01') in 0.012732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_bucket_01.fbx
-  artifactKey: Guid(e978333221b12f44ba9099ca8d181f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_bucket_01.fbx using Guid(e978333221b12f44ba9099ca8d181f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a280b1cc9f6cd6e0d9e2d64f319ae4') in 0.015721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_hanger_clothes_01.fbx
-  artifactKey: Guid(30c389f0d35cc414d9e841ff82ce1424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_hanger_clothes_01.fbx using Guid(30c389f0d35cc414d9e841ff82ce1424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e75e9e166242a890ba550a706ecae1e') in 0.014071 seconds 
+  path: Assets/건축/GreekPack1Lite/Models/greek_tree_2.fbx
+  artifactKey: Guid(fe654bfd67235493e84db277df9c5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models/greek_tree_2.fbx using Guid(fe654bfd67235493e84db277df9c5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d515535a01654f04dbe0cadf9c5a2be') in 0.018785 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_wood_path_01a.fbx
-  artifactKey: Guid(d4d6eed92fb93e948b95c2fc4d1f6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_wood_path_01a.fbx using Guid(d4d6eed92fb93e948b95c2fc4d1f6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8131b3d2442e6f3287ed77092d0e1d') in 0.014702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_bowl_metal_01.fbx
-  artifactKey: Guid(09cc238bd856b5d468789a6d2d0f48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_bowl_metal_01.fbx using Guid(09cc238bd856b5d468789a6d2d0f48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbd1e779afa18a8fe1e81da2c722aef') in 0.014326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_log_wood_01.fbx
-  artifactKey: Guid(83ca3216726525148a325296526fcfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_log_wood_01.fbx using Guid(83ca3216726525148a325296526fcfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9b32fdb1051fd67b2e856d217847d0') in 0.016479 seconds 
+  path: Assets/건축/GreekPack1Lite/Models/greek_floor_stone_1.fbx
+  artifactKey: Guid(69eb944f6a0da40f7b2dedf645a16d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models/greek_floor_stone_1.fbx using Guid(69eb944f6a0da40f7b2dedf645a16d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b4c064e2cb6e3a367ee92b49bd2007') in 0.016873 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_box_wood_01.fbx
-  artifactKey: Guid(ab945ff7c1d59bb4a8b506cb8c7dafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_box_wood_01.fbx using Guid(ab945ff7c1d59bb4a8b506cb8c7dafcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdad88bd12bc7973a2ea68cff68c9af') in 0.019987 seconds 
+  path: Assets/건축/GreekPack1Lite/Models/greek_roof_support_1_square.fbx
+  artifactKey: Guid(064b6ba9d50ee47918dbd37de665fa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models/greek_roof_support_1_square.fbx using Guid(064b6ba9d50ee47918dbd37de665fa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b13564e14998129def7130c86098781') in 0.016171 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_wagon_01.fbx
-  artifactKey: Guid(f34a4e9b86005de4da2625205407868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_wagon_01.fbx using Guid(f34a4e9b86005de4da2625205407868e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397bfd2c8e5154a865c1427066b9da8a') in 0.013905 seconds 
+  path: Assets/건축/GreekPack1Lite/Models/greek_roof_support_1.fbx
+  artifactKey: Guid(69a7d92786c3f4e0dbee6da6dc1f947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models/greek_roof_support_1.fbx using Guid(69a7d92786c3f4e0dbee6da6dc1f947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dcf817c5b5b9c738c34e7b25ae3cec') in 0.016974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/건축/GreekPack1Lite/Models/greek_wall_divider_1_corner.fbx
+  artifactKey: Guid(1ce29e0fa80ac4312a9837582ffebb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models/greek_wall_divider_1_corner.fbx using Guid(1ce29e0fa80ac4312a9837582ffebb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d6d27972c01410db7b08cc4b53b314') in 0.017105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/건축/GreekPack1Lite/Models/greek_roof_1_square.fbx
+  artifactKey: Guid(1e02a01f810e841ac81258ac38b3ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models/greek_roof_1_square.fbx using Guid(1e02a01f810e841ac81258ac38b3ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b326d90528b0eb64dda6b63fc8c3f8') in 0.017374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/건축/GreekPack1Lite/Models/greek_wall_divider_2.fbx
+  artifactKey: Guid(2d2e1fd5462c74fc88283701d773cbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models/greek_wall_divider_2.fbx using Guid(2d2e1fd5462c74fc88283701d773cbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a06aca73df6569190aa23c7d2af1bbb') in 0.016372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/건축/GreekPack1Lite/Models/greek_wall_2_corner.fbx
+  artifactKey: Guid(c7f57c2010cac4421b7c883e95751d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Models/greek_wall_2_corner.fbx using Guid(c7f57c2010cac4421b7c883e95751d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdba5e76ed08e668f5805963cec4431') in 0.014604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.875213 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Buildings
+  artifactKey: Guid(f36fa3705d7484f1d9f59fc8570a908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Buildings using Guid(f36fa3705d7484f1d9f59fc8570a908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92de148259fa4d389572e370febd0c8') in 0.002665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035155 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(9293442b452d64a09b2bbd4bd563a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Buildings/Temple.prefab using Guid(9293442b452d64a09b2bbd4bd563a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99035e081e75fea70ef239df702522da') in 0.026093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.117849 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_column_1.prefab
+  artifactKey: Guid(b67c34942f06641839dbb616d6b0423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_column_1.prefab using Guid(b67c34942f06641839dbb616d6b0423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741965937e1e52cf82d251bcd534b517') in 0.012674 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_well_01.fbx
-  artifactKey: Guid(54708add4b909204cb861ed2bd2cfcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_well_01.fbx using Guid(54708add4b909204cb861ed2bd2cfcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05c81d4be072af7b52f6e2d9e645a9e') in 0.016930 seconds 
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_roof_support_1_square.prefab
+  artifactKey: Guid(23d2c27c021bf458dbea5e5439e337b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_roof_support_1_square.prefab using Guid(23d2c27c021bf458dbea5e5439e337b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf4fecb87e4dabfced5826343e0c82a') in 0.009568 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_vase_02.fbx
-  artifactKey: Guid(65a171ea06543b04fa7aa086cd66702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_vase_02.fbx using Guid(65a171ea06543b04fa7aa086cd66702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2a2f36f1bd297dd076a13dbb47ef90') in 0.015841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_broom_01.fbx
-  artifactKey: Guid(752014a26efd03145b74d57634ef9245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_broom_01.fbx using Guid(752014a26efd03145b74d57634ef9245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db12490484051485eb0079b8e024f19') in 0.013636 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_wall_2_door.prefab
+  artifactKey: Guid(db1a4c8ae12944144b7a56b1adb279c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_wall_2_door.prefab using Guid(db1a4c8ae12944144b7a56b1adb279c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7093eac6b24d975743cc59a0cf8ade0a') in 0.008471 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/마을/Models/Props/rpgpp_lt_shield_wall_01a.fbx
-  artifactKey: Guid(6db1e633533718d49bd0b8329bc37412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Models/Props/rpgpp_lt_shield_wall_01a.fbx using Guid(6db1e633533718d49bd0b8329bc37412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e338471659188067b769848fdce6c41') in 0.013880 seconds 
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_wall_column_1.prefab
+  artifactKey: Guid(dd38b37b510544adbb92ccac89d70202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_wall_column_1.prefab using Guid(dd38b37b510544adbb92ccac89d70202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df0bb9319c020e9cfbfeef88442de31') in 0.012237 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.298293 seconds.
-  path: Assets/마을
-  artifactKey: Guid(0dfa8c0a9f00cae499d1638894c3d3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을 using Guid(0dfa8c0a9f00cae499d1638894c3d3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d42757875ed56758eba4734f7828dd') in 0.002286 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_tree_2.prefab
+  artifactKey: Guid(6a795ebc8fb3847c49aadadb856a09de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_tree_2.prefab using Guid(6a795ebc8fb3847c49aadadb856a09de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4498d837ac28c0edcba5edf0c6b9ac7') in 0.011229 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.540478 seconds.
-  path: Assets/자연/FreeVegetation
-  artifactKey: Guid(91d8f4b4077ba1b47aad4b20f0c152e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/자연/FreeVegetation using Guid(91d8f4b4077ba1b47aad4b20f0c152e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94e6c57c9ad4e4c263f37890be4ad00') in 0.002890 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_stairs_stone.prefab
+  artifactKey: Guid(e4707a0856ce84eee87e7e38fb543c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_stairs_stone.prefab using Guid(e4707a0856ce84eee87e7e38fb543c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0b374aaa9cd2b4ed507946963d9594') in 0.011623 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.283489 seconds.
-  path: Assets/마을/Textures/rpgpp_lt_sky_a.tga
-  artifactKey: Guid(5c4fa0e44769f8f46a06d96031e56a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/마을/Textures/rpgpp_lt_sky_a.tga using Guid(5c4fa0e44769f8f46a06d96031e56a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02f257a37b8f7302b35e4b47cfd2517') in 0.013228 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_roof_support_1.prefab
+  artifactKey: Guid(86da1ad6886b74c66bd850a4c1de0b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_roof_support_1.prefab using Guid(86da1ad6886b74c66bd850a4c1de0b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b18b7b26194cdec3b3a4730a7006791') in 0.009751 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 316.729385 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(ee20b9d70d0f8b64789d5b8e0c94fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(ee20b9d70d0f8b64789d5b8e0c94fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f08cc3ad99cf92d05bff7682db22e9') in 0.007919 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_wall_divider_2_corner.prefab
+  artifactKey: Guid(52cf6fe79e5e8482286a21960567bc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_wall_divider_2_corner.prefab using Guid(52cf6fe79e5e8482286a21960567bc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f167301816a6c696f9e9707a71a3fb0') in 0.010169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_stairs_stone_corner.prefab
+  artifactKey: Guid(59df19ce6f8e647159d9bee24a6a0af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_stairs_stone_corner.prefab using Guid(59df19ce6f8e647159d9bee24a6a0af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d33bbc620c1831f9693a8d8162fc698') in 0.008649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_wall_2.prefab
+  artifactKey: Guid(6b66ad43b05274620bc8695d0e1cebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects/greek_wall_2.prefab using Guid(6b66ad43b05274620bc8695d0e1cebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2440dd5783d5fdb7ea156c377910efc') in 0.009664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.209201 seconds.
+  path: Assets/건축/GreekPack1Lite/Textures/Greek_Combined.png
+  artifactKey: Guid(57d42fa8249a84e628d946ee3d5efd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Textures/Greek_Combined.png using Guid(57d42fa8249a84e628d946ee3d5efd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b3722f0b41dbf77862f57818f2e8c8') in 0.024018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.699856 seconds.
+  path: Assets/건축/GreekPack1Lite/Prefabs/Objects
+  artifactKey: Guid(b0a85ddd620f947b5a0c1c158a6e9663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/건축/GreekPack1Lite/Prefabs/Objects using Guid(b0a85ddd620f947b5a0c1c158a6e9663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04af7e2675039d66524bd55f5b312bd') in 0.004008 seconds 
